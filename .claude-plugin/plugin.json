@@ -1,7 +1,7 @@
 {
   "name": "cc-codemaps",
   "description": "Language-agnostic codemap generator for Claude Code. Scans your codebase and generates token-lean architecture maps that load into context at session start.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Samuel Reed",
     "url": "https://github.com/STRML"

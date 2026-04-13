@@ -25,8 +25,14 @@ Read `CLAUDE.md` and `README.md` to identify:
 | `go.mod` | Go |
 | `platformio.ini`, `CMakeLists.txt`, `Makefile` | C/C++ |
 | `pyproject.toml`, `setup.py`, `requirements.txt` | Python |
+| `composer.json`, `wp-content/` | PHP |
+| `pom.xml`, `build.gradle`, `build.gradle.kts` | Java/Kotlin |
+| `Gemfile`, `config.ru` | Ruby |
+| `Package.swift`, `*.xcodeproj` | Swift |
+| `*.sln`, `*.csproj` | C# / .NET |
+| `init.lua`, `*.rockspec` | Lua |
 
-Then load the matching language reference(s) from `references/` for language-specific guidance on what to capture and which tools to use. Available references: `typescript.md`, `cpp.md`, `python.md`, `rust.md`, `golang.md`. Load only the ones that apply.
+Then load the matching language reference(s) from `references/` for language-specific guidance on what to capture and which tools to use. Available references: `typescript.md`, `cpp.md`, `python.md`, `rust.md`, `golang.md`, `php.md`, `java.md`, `ruby.md`, `swift.md`, `csharp.md`, `lua.md`. Load only the ones that apply.
 
 For multi-language projects (e.g., a C++ firmware repo with a Rust TUI tool), load all relevant references. Create one `architecture.md` for the overall system, with separate per-subsystem files named by component (e.g., `firmware.md`, `viz.md`) rather than generic names.
 

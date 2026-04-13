@@ -36,6 +36,12 @@ Files that don't apply are skipped. Stale files are pruned.
 - Python
 - Rust
 - Go
+- PHP (WordPress/WooCommerce, Laravel, Symfony)
+- Java / Kotlin (Spring Boot, Android, Quarkus)
+- Ruby (Rails, Sinatra)
+- Swift (SwiftUI, UIKit, SPM, Vapor)
+- C# / .NET (ASP.NET Core, Blazor, MAUI)
+- Lua (Hammerspoon, Neovim, LOVE2D)
 
 Each language has a reference file with discovery tools, what-to-capture guidance, and codemap file suggestions. Adding a new language is one markdown file in `skills/update-codemaps/references/`.
 

@@ -1,0 +1,12 @@
+{
+  "name": "cc-codemaps",
+  "owner": {
+    "name": "Samuel Reed"
+  },
+  "plugins": [
+    {
+      "name": "cc-codemaps",
+      "source": "./"
+    }
+  ]
+}
